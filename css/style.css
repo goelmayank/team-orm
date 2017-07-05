@@ -18,6 +18,9 @@ html, body{
 body{
 	background:#FFFFFF;
 }
+.icons{
+    width: 60%;
+}
 #breadcrumb_wrapper {
     width: 100%;
     padding: 28px 0 28px 0px;
