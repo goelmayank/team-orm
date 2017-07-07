@@ -5,7 +5,6 @@ $(function() {
         		"email": $('#email_subcribe').val() 
         	}
         };
-        alert(JSON.stringify(data));
         var request = $.ajax({
             url: "https://nodejs-rest-api.herokuapp.com/api/subscribe",
             type: "POST",
